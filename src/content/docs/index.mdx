@@ -1,36 +1,57 @@
 ---
-title: Welcome to Starlight
+title: Welcome to VTFTK
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: VTuber Fun ToolKit - WIP App for VTubers to create interactive experiences with their viewers
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Setup Guide
+      link: /guides/setup/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: View on Github
+      link: https://github.com/jacobtread/vtftk
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+
+<Card title="VTFTK" icon="open-book">
+	Create items that can be thrown at you, sounds that can be played, and trigger VTube studio. All using events from twitch such as redeems, commands, subscriptions, follows, raids, bits
+
+	Still early stages and work in progress, but it does work and throwables / sounds can be created then triggered by events.
+
+	Aiming to be a tailored and improved version of [KBonk](https://github.com/typeou/karasubonk) more suited to my needs and wants.
+</Card>	
+
+
+<CardGrid >
+	<Card title="Custom Commands" icon="pencil">
+		Write custom commands using JavaScript powered by `deno_core`.  Build in editor running on 
+		[Monaco](https://microsoft.github.io/monaco-editor/) providing great editing experience and 
+		type hinting for the APIs.
+	</Card>	
+	<Card title="Scripting" icon="pencil">
+Subscribe and react to various events using the same JavaScript code powered by the same editor as Custom Commands.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Events" icon="add-document">
+		React to stream events such as channel point redeems, follows, subscriptions etc and 
+		perform actions such as throwing items, playing sounds, and triggering VTube Studio hotkeys
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="TTS Monster Integration" icon="setting">
+		Integrated with [TTS Monster](https://tts.monster/) to use AI generated text to speech voices. Currently only available through the scripting API
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Low resource usage" icon="open-book">
+		The **VTFTK** app is built with Rust for its core logic and uses SQLite for data storage, ensuring a low memory footprint. 
+		While the web-based UI can increase resource usage, closing the app's window reduces this by running it in the background as a server. The Webview can be reopened or the app fully exited via the tray menu icon.
+	</Card>
+	<Card title="Built-in assets" icon="open-book">
+		Collection of built in pre-configured throwable items from [Pixel Mart](https://ghostpixxells.itch.io/pixel-mart) Sounds sourced from [KBonk](https://github.com/typeou/karasubonk) which is originally sourced from 
+		[Game Audio GDC](https://sonniss.com/gameaudiogdc) from the [Hong Kong Action Kit Hit Kit 1](http://www.sonniss.com/sound-effects/hong-kong-action-kit-hit-kit-1/)
 	</Card>
 </CardGrid>
