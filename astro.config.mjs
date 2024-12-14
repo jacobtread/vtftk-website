@@ -8,16 +8,23 @@ export default defineConfig({
     starlight({
       title: "VTFTK",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/jacobtread/vtftk",
       },
       sidebar: [
         {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Setup Guide", slug: "guides/setup" },
+            {
+              label: "Events",
+              items: [
+                { label: "Introduction", slug: "guides/events/introduction" },
+              ],
+            },
           ],
         },
+
         {
           label: "Reference",
           autogenerate: { directory: "reference" },
