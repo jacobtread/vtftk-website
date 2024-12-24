@@ -41,3 +41,7 @@ You can optionally enable "Shutdown source when not visible" and "Refresh browse
 "Shutdown source when not visible" will allow you to save resources by hiding the overlay browser when you hide it or are on a different scene that doesn't have it
 
 ![alt text](./images/overlay/image-7.png)
+
+After doing this you should see that "Active Overlay" becomes green with the number 1 indicating 1 connected overlay
+
+![alt text](./images/overlay/image-8.png)
