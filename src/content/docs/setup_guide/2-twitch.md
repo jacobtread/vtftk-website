@@ -1,5 +1,5 @@
 ---
-title: Connecting Twitch
+title: 1. Connecting Twitch
 description: Connect your Twitch account
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Overlay
+title: 2. Overlay
 description: Connect your overlay within OBS
 ---
 

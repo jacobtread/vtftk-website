@@ -12,46 +12,89 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "Setup Guide",
+          autogenerate: { directory: "setup_guide" },
+        },
+
+        {
           label: "Guides",
+          collapsed: true,
           items: [
-            // Each item here is one entry in the navigation menu.
             {
-              label: "Setup Guide",
-              items: [
-                {
-                  label: "Getting Started",
-                  slug: "guides/setup/1-getting-started",
-                },
-                {
-                  label: "1. Connecting Twitch",
-                  slug: "guides/setup/2-twitch",
-                },
-                {
-                  label: "2. Overlay",
-                  slug: "guides/setup/3-overlay",
-                },
-                {
-                  label: "3. VTube Studio",
-                  slug: "guides/setup/4-vtube-studio",
-                },
-                {
-                  label: "4. Calibrate",
-                  slug: "guides/setup/5-calibrate",
-                },
-              ],
+              label: "Throwables",
+              collapsed: true,
+              autogenerate: { directory: "guides/throwables" },
+            },
+            {
+              label: "Sounds",
+              collapsed: true,
+              autogenerate: { directory: "guides/sounds" },
             },
             {
               label: "Events",
-              items: [
-                { label: "Introduction", slug: "guides/events/introduction" },
-              ],
+              collapsed: true,
+              autogenerate: { directory: "guides/events" },
+            },
+            {
+              label: "Commands",
+              collapsed: true,
+              autogenerate: { directory: "guides/commands" },
+            },
+            {
+              label: "Scripts",
+              collapsed: true,
+              autogenerate: { directory: "guides/scripts" },
+            },
+          ],
+        },
+
+        {
+          label: "Examples",
+          collapsed: true,
+          items: [
+            {
+              label: "Events",
+              collapsed: true,
+              autogenerate: { directory: "examples/events" },
+            },
+            {
+              label: "Commands",
+              collapsed: true,
+              autogenerate: { directory: "examples/commands" },
+            },
+            {
+              label: "Scripts",
+              collapsed: true,
+              autogenerate: { directory: "examples/scripts" },
             },
           ],
         },
 
         {
           label: "Reference",
-          autogenerate: { directory: "reference" },
+          collapsed: true,
+          items: [
+            {
+              label: "Commands",
+              collapsed: true,
+              autogenerate: { directory: "reference/commands" },
+            },
+            {
+              label: "Scripting",
+              collapsed: true,
+              autogenerate: { directory: "reference/scripting" },
+            },
+            {
+              label: "Scripts",
+              collapsed: true,
+              autogenerate: { directory: "reference/scripts" },
+            },
+            {
+              label: "Settings",
+              collapsed: true,
+              autogenerate: { directory: "reference/settings" },
+            },
+          ],
         },
       ],
     }),

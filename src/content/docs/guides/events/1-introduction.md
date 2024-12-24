@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Introduction to reacting to events.
+description: Introduction to events
 ---
 
 TODO:
