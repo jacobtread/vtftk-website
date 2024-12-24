@@ -23,19 +23,19 @@ export default defineConfig({
                   slug: "guides/setup/1-getting-started",
                 },
                 {
-                  label: "Connecting Twitch",
+                  label: "1. Connecting Twitch",
                   slug: "guides/setup/2-twitch",
                 },
                 {
-                  label: "Overlay",
+                  label: "2. Overlay",
                   slug: "guides/setup/3-overlay",
                 },
                 {
-                  label: "VTube Studio",
+                  label: "3. VTube Studio",
                   slug: "guides/setup/4-vtube-studio",
                 },
                 {
-                  label: "Calibrate",
+                  label: "4. Calibrate",
                   slug: "guides/setup/5-calibrate",
                 },
               ],
