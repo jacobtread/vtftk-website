@@ -15,7 +15,31 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Setup Guide", slug: "guides/setup" },
+            {
+              label: "Setup Guide",
+              items: [
+                {
+                  label: "Getting Started",
+                  slug: "guides/setup/1-getting-started",
+                },
+                {
+                  label: "Connecting Twitch",
+                  slug: "guides/setup/2-twitch",
+                },
+                {
+                  label: "Overlay",
+                  slug: "guides/setup/3-overlay",
+                },
+                {
+                  label: "VTube Studio",
+                  slug: "guides/setup/4-vtube-studio",
+                },
+                {
+                  label: "Calibrate",
+                  slug: "guides/setup/5-calibrate",
+                },
+              ],
+            },
             {
               label: "Events",
               items: [
