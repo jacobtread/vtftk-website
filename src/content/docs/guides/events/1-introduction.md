@@ -3,6 +3,6 @@ title: Introduction
 description: Introduction to events
 ---
 
-TODO:
+TODO: Documentation not yet complete
 
 ![Events](./images/events.png)
