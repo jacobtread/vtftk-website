@@ -33,6 +33,11 @@ We will replace this with our greeting code and random greeting messages:
 // Target user from the first command argument
 const targetUser = api.twitch.getUsernameArg(ctx.args[0]);
 
+// Make sure a name was provided
+if (targetUser === null) {
+  return "You must provide a person to greet";
+}
+
 // Possible response messages
 const messages = [
   `Hello! Welcome to chat ${targetUser}`,
