@@ -5,35 +5,35 @@ description: Creating new throwable items
 
 To create your own throwable visit the "Throwables" section using the sidebar:
 
-![alt text](./images/create/image.png)
+![Throwables section](./images/create/image.png)
 
 Then press the "Create" button 
 
-![alt text](./images/create/image-1.png)
+![Create button](./images/create/image-1.png)
 
 Then "Create Throwable"
 
-![alt text](./images/create/image-2.png)
+![Create throwable button](./images/create/image-2.png)
 
 ## Choose Image
 
 Press the "Select Image" button
 
-![alt text](./images/create/image-3.png)
+![Select image button](./images/create/image-3.png)
 
 Find the image you want to use within the file picker that appears and press "Open"
 
-![alt text](./images/create/image-4.png)
+![File picker](./images/create/image-4.png)
 
 You will now see a preview of your chosen image below, adjust the "Scale" of the image to your desired scale (You can change this later after testing it with your model)
 
-![alt text](./images/create/image-5.png)
+![Image preview and options](./images/create/image-5.png)
 
 Adjust the "Scale" of the image to your desired scale. Note the actual scale will depend on the scale of you VTuber model, you can adjust this option later after testing it against your model.
 
 Ensure you enable the "Pixelate" option if your image is pixel art (Like the image is below) for the best looking image 
 
-![alt text](./images/create/image-6.png)
+![Scale and pixelate options](./images/create/image-6.png)
 
 ## Enter Details
 
@@ -49,11 +49,11 @@ Navigate to the "Details" tab and enter in the name for your throwable.
 
 Next navigate to the "Impact Sounds" tab. 
 
-![alt text](./images/create/image-8.png)
+![Impact sounds tab](./images/create/image-8.png)
 
 Then press the "Select Sounds" button:
 
-![alt text](./images/create/image-9.png)
+![Select sounds button](./images/create/image-9.png)
 
 This will open the sound picker dialog, here you can check the checkboxes for the sounds you'd like to play on impact
 
@@ -61,26 +61,26 @@ Theres a number of built in sounds available
 
 Select the checkboxes on the left for the sounds you'd like to use. Check the first checkbox to select all sounds
 
-![alt text](./images/create/image-10.png)
+![Sound picker dialog](./images/create/image-10.png)
 
 After you've selected your sounds push the "Done" button
 
-![alt text](./images/create/image-11.png)
+![Selected sounds with Done button](./images/create/image-11.png)
 
 After pressing add you should see the sound names appear under "Selected Sounds"
 
-![alt text](./images/create/image-12.png)
+![Selected sounds list](./images/create/image-12.png)
 
 Finally you can press the "Create" button to create your throwable
 
-![alt text](./images/create/image-13.png)
+![Create button](./images/create/image-13.png)
 
 You should be taken back to the "Throwables" tab and your throwable will be at the top of the list
 
-![alt text](./images/create/image-14.png)
+![Throwables list with new throwable](./images/create/image-14.png)
 
 You can drag and drop your throwables to order them the way you'd like
 
-![alt text](./images/create/image-15.png)
+![Dragging throwable within list](./images/create/image-15.png)
 
 Visit the [Testing](/guides/throwables/4-testing) section to see how to test your throwables
