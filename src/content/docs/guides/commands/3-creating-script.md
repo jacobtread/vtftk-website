@@ -31,7 +31,7 @@ We will replace this with our greeting code and random greeting messages:
 
 ```javascript
 // Target user from the first command argument
-const targetUser = api.twitch.getUsernameArg(ctx.args[0]);
+const { targetUser } = ctx;
 
 // Make sure a name was provided
 if (targetUser === null) {
