@@ -39,12 +39,7 @@ export default defineConfig({
               label: "Commands",
               collapsed: true,
               autogenerate: { directory: "guides/commands" },
-            },
-            {
-              label: "Scripts",
-              collapsed: true,
-              autogenerate: { directory: "guides/scripts" },
-            },
+            }
           ],
         },
 
@@ -62,11 +57,6 @@ export default defineConfig({
               collapsed: true,
               autogenerate: { directory: "examples/commands" },
             },
-            {
-              label: "Scripts",
-              collapsed: true,
-              autogenerate: { directory: "examples/scripts" },
-            },
           ],
         },
 
@@ -83,11 +73,6 @@ export default defineConfig({
               label: "Scripting",
               collapsed: true,
               autogenerate: { directory: "reference/scripting" },
-            },
-            {
-              label: "Scripts",
-              collapsed: true,
-              autogenerate: { directory: "reference/scripts" },
             },
             {
               label: "Settings",
